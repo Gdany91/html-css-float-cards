@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -10,29 +11,26 @@ body{
 }
 
 header{
-    height: 170px;
-    background-color: blueviolet;
-    /* debug */
+    height: 100px;
 }
 
 /*titolo e descrizione */
 h1{
     margin: 2% 40%;
-    color: rgb(172, 46, 46);
-    
+    color: rgb(183, 87, 100);
+}
+
+p{
+    text-align: center;
 }
 
 /* main */
     /* prima riga */
     main{
-        margin-top: 50px;
+        margin-top: 5%;
     }
     .row{
         min-height: 100px;
-       
-        /* DEBUG */
-         background-color: rgb(43, 226, 104);
-        border: 1px solid black;
     }
     .row::after{
         content: "";
@@ -46,16 +44,29 @@ h1{
         float: left;
         width: calc(100% / 3);
         padding: 15px;
-        /* DEBUG */
-        background-color: aqua;
-        border: 1px solid black;
+       
         
     }
 
     /* foto e descrizione membri */
 
     .member{
-        /* DEBUG */
-        background-color: blue;
+        background-color: black;
         height: 118px;
     }
+
+    .picture{
+        height: 118px;
+        float: left;
+     }
+
+     .description{
+        margin: 5;
+        color: white;
+        text-align: center;
+    
+     }
+     
+    
+
+    
