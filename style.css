@@ -42,11 +42,20 @@ h1{
 
     /* colonne */
     .col{
-        min-height: 100px;
+        min-height: 150px;
         float: left;
         width: calc(100% / 3);
+        padding: 15px;
         /* DEBUG */
         background-color: aqua;
         border: 1px solid black;
         
+    }
+
+    /* foto e descrizione membri */
+
+    .member{
+        /* DEBUG */
+        background-color: blue;
+        height: 118px;
     }
